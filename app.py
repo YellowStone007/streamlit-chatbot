@@ -16,7 +16,7 @@ st.set_page_config(
     page_title='Smart.Cookie Assistant',
     page_icon='🎅'
 )
-st.subheader('Your Helpful Assistant 🎅')
+st.subheader('Smart.Cookie Assistant 🎅')
 
 chat = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0.5)
 
